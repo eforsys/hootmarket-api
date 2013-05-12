@@ -16,8 +16,10 @@ Get Countries
   {
     data: [
       {
-        id: 2,
-        name: "Apple"
+        id: 239,
+        name: "Venezuela",
+        code: "VE",
+        phone_code: "58"
       },
       ...
     ]
@@ -35,8 +37,9 @@ Get Country
   {
     data: { 
       id: 234,
-      name: "United States"
+      name: "United States",
+      code: "US",
+      phone_code: "1"
     }
   }
   ```
-
