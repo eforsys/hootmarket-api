@@ -1,12 +1,12 @@
 Countries
 =========
 
-The countries API allows get list of all countries.
+Get a list of all Countries, or get a specific Country.
 
 Get Countries
 -------------
 
-`GET /countries.json` returns all countries.
+`GET /countries.json` returns all Countries.
 
 **Response**
 
@@ -29,9 +29,11 @@ Get Countries
 Get Country
 -----------
 
-`GET /country/#{id}.json`
+`GET /country/#{id}.json` returns a specific Country with the Id.
 
 **Response**
+
+200 (ok) HTTP status and the following json document in the body:
 
 > ``` json
   {

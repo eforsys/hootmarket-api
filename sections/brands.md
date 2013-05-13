@@ -1,7 +1,7 @@
 Brands
 ======
 
-The brands API provides a CRUD interface to the brands of products.
+CRUD interface for the brands of products.
 
 Get brands
 ----------

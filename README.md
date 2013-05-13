@@ -10,6 +10,7 @@ API Endpoints
 
 * [Countries](sections/countries.md)
 * [States](sections/states.md)
+* [Brands](sections/brands.md)
 
 Errors
 ------

@@ -12,7 +12,7 @@ By Example:
 
 > `GET /countries/999.json`
   
-> The country with the Id 999 no exists, therefore the 404 (not found) 
+> The country with the Id 999 not exists, therefore the 404 (not found) 
   HTTP status error, and the following json document in the body, is returned:
 
 > ``` json
