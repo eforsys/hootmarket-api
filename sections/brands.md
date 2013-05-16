@@ -95,7 +95,7 @@ Create Brand
 
 **Response**
 
-HTTP status 200 "ok" with the following json document that contains the Brand created:
+HTTP status 201 "created" with the following json document that contains the Brand created:
 
 ```
 {
