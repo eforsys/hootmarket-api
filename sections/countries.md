@@ -14,19 +14,20 @@ The Countries are sorted by name.
 
 200 (ok) HTTP status and the following json document in the body:
 
-> ```
-  {
-    data: [
-      {
-        id: 239,
-        name: "Venezuela",
-        code: "VE",
-        phone_code: "58"
-      },
-      ...
-    ]
-  }
-  ```
+```
+{
+  data: [
+    {
+      id: 239,
+      name: "Venezuela",
+      code: "VE",
+      phone_code: "58"
+    },
+    ...
+  ]
+}
+```
+
 Get similar Countries
 ---------------------
 
@@ -38,19 +39,19 @@ The Countries are sorted by similitude.
 
 200 (ok) HTTP status and the following json document in the body:
 
-> ```
-  {
-    data: [
-      {
-        id: 239,
-        name: "Venezuela",
-        code: "VE",
-        phone_code: "58"
-      },
-      ...
-    ]
-  }
-  ```
+```
+{
+  data: [
+    {
+      id: 239,
+      name: "Venezuela",
+      code: "VE",
+      phone_code: "58"
+    },
+    ...
+  ]
+}
+```
 
 Get Country
 -----------
@@ -61,13 +62,13 @@ Get Country
 
 200 (ok) HTTP status and the following json document in the body:
 
-> ```
-  {
-    data: { 
-      id: 234,
-      name: "United States",
-      code: "US",
-      phone_code: "1"
-    }
+```
+{
+  data: { 
+    id: 234,
+    name: "United States",
+    code: "US",
+    phone_code: "1"
   }
-  ```
+}
+```

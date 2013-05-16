@@ -14,19 +14,19 @@ The States will be sorted by name
 
 200 (ok) HTTP status and the following json document in the body:
 
-> ```
-  {
-    data: [
-      {
-        id: 3531,
-        name: "Florida",
-        code: "FL",
-        country_id: "234"
-      },
-      ...
-    ]
-  }
-  ```
+```
+{
+  data: [
+    {
+      id: 3531,
+      name: "Florida",
+      code: "FL",
+      country_id: "234"
+    },
+    ...
+  ]
+}
+```
 
 Get similar States
 ------------------
@@ -39,19 +39,19 @@ The States are sorted by similitude.
 
 200 (ok) HTTP status and the following json document in the body:
 
-> ```
-  {
-    data: [
-      {
-        id: 3531,
-        name: "Florida",
-        code: "FL",
-        country_id: "234"
-      },
-      ...
-    ]
-  }
-  ```
+```
+{
+  data: [
+    {
+      id: 3531,
+      name: "Florida",
+      code: "FL",
+      country_id: "234"
+    },
+    ...
+  ]
+}
+```
 
 Get Country
 -----------
@@ -62,13 +62,13 @@ Get Country
 
 200 (ok) HTTP status and the following json document in the body:
 
-> ```
-  {
-    data: { 
-      id: 3560,
-      name: "Carlifornia",
-      code: "CA",
-      phone_code: "1"
-    }
+```
+{
+  data: { 
+    id: 3560,
+    name: "Carlifornia",
+    code: "CA",
+    phone_code: "1"
   }
-  ```
+}
+```

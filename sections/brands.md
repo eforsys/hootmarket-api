@@ -17,23 +17,23 @@ Get Brands
 
 **Response**
 
-* HTTP status 200 "ok" and the following json document in the body:
+HTTP status 200 "ok" and the following json document in the body:
 
-> ```
-  {
-    data: [
-      {
-        id: 2,
-        name: Samsung
-      }, 
-      ...
-    ],
-    pagination: {
-      total_pages: 4,
-      current_page: 1
-    }
+```
+{
+  data: [
+    {
+      id: 2,
+      name: Samsung
+    }, 
+    ...
+  ],
+  pagination: {
+    total_pages: 4,
+    current_page: 1
   }
-  ```
+}
+```
   
 Get similar Brands
 ------------------
@@ -47,23 +47,23 @@ Get similar Brands
 
 **Response**
 
-* HTTP status 200 "ok" and the following json document in the body:
+HTTP status 200 "ok" and the following json document in the body:
 
-> ```
-  {
-    data: [
-      {
-        id: 2,
-        name: Samsung
-      }, 
-      ...
-    ],
-    pagination: {
-      total_pages: 4,
-      current_page: 1
-    }
+```
+{
+  data: [
+    {
+      id: 2,
+      name: Samsung
+    }, 
+    ...
+  ],
+  pagination: {
+    total_pages: 4,
+    current_page: 1
   }
-  ```
+}
+```
 
 
 Get Brand
@@ -73,16 +73,16 @@ Get Brand
 
 **Response**
 
-* HTTP status 200 "ok" with the following json document:
+HTTP status 200 "ok" with the following json document:
 
-> ```
-  {
-    data: {
-      id: 1,
-      name: Apple
-    }
+```
+{
+  data: {
+    id: 1,
+    name: Apple
   }
-  ```
+}
+```
 
 Create Brand
 ------------
@@ -95,16 +95,16 @@ Create Brand
 
 **Response**
 
-* HTTP status 200 "ok" with the following json document that contains the Brand created:
+HTTP status 200 "ok" with the following json document that contains the Brand created:
 
-> ```
-  {
-    data: {
-      id: 1,
-      name: Apple
-    }
+```
+{
+  data: {
+    id: 1,
+    name: Apple
   }
-  ```
+}
+```
 
 Update Brand
 ------------
@@ -117,16 +117,16 @@ Update Brand
 
 **Response**
 
-* HTTP status 200 "ok" with the following json document that contains the Brand updated:
+HTTP status 200 "ok" with the following json document that contains the Brand updated:
 
-> ```
-  {
-    data: {
-      id: 1,
-      name: Apples
-    }
+```
+{
+  data: {
+    id: 1,
+    name: Apples
   }
-  ```
+}
+```
 
 Delete Brand
 ------------
@@ -135,4 +135,4 @@ Delete Brand
 
 **Response**
 
-* HTTP status 200 "ok".
+HTTP status 200 "ok".
