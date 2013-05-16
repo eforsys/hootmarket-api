@@ -21,7 +21,7 @@ Get Brands
 
 > ```
   {
-    brands: [
+    data: [
       {
         id: 2,
         name: Samsung
@@ -51,7 +51,7 @@ Get similar Brands
 
 > ```
   {
-    brands: [
+    data: [
       {
         id: 2,
         name: Samsung
@@ -77,8 +77,10 @@ Get Brand
 
 > ```
   {
-    id: 1,
-    name: Apple
+    data: {
+      id: 1,
+      name: Apple
+    }
   }
   ```
 
@@ -97,8 +99,10 @@ Create Brand
 
 > ```
   {
-    id: 1,
-    name: Apple
+    data: {
+      id: 1,
+      name: Apple
+    }
   }
   ```
 
@@ -117,8 +121,10 @@ Update Brand
 
 > ```
   {
-    id: 1,
-    name: Apples
+    data: {
+      id: 1,
+      name: Apples
+    }
   }
   ```
 
