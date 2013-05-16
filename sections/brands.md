@@ -109,7 +109,7 @@ HTTP status 201 "created" with the following json document that contains the Bra
 Update Brand
 ------------
 
-`PUT /brands{id}.json` updates a Brand specifies with ID {id}.
+`PATCH /brands{id}.json` updates a Brand specifies with ID {id}.
 
 **Parameters**
 
