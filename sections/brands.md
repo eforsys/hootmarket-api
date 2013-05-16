@@ -19,16 +19,18 @@ Get Brands
 
 * HTTP status 200 "ok" and the following json document in the body:
 
-  ``` json
+> ```
   {
     brands: [
       {
-        id: id,
-        name: name
+        id: 2,
+        name: Samsung
       }, 
       ...
     ],
     pagination: {
+      total_pages: 4,
+      current_page: 1
     }
   }
   ```
@@ -47,16 +49,18 @@ Get similar Brands
 
 * HTTP status 200 "ok" and the following json document in the body:
 
-  ``` json
+> ```
   {
     brands: [
       {
-        id: id,
-        name: name
+        id: 2,
+        name: Samsung
       }, 
       ...
     ],
     pagination: {
+      total_pages: 4,
+      current_page: 1
     }
   }
   ```
@@ -71,12 +75,12 @@ Get Brand
 
 * HTTP status 200 "ok" with the following json document:
 
-``` json
-{
-  id: id,
-  name: name
-}
-```
+> ```
+  {
+    id: 1,
+    name: Apple
+  }
+  ```
 
 Create Brand
 ------------
@@ -91,12 +95,12 @@ Create Brand
 
 * HTTP status 200 "ok" with the following json document that contains the Brand created:
 
-``` json
-{
-  id: id,
-  name: name
-}
-```
+> ```
+  {
+    id: 1,
+    name: Apple
+  }
+  ```
 
 Update Brand
 ------------
@@ -111,12 +115,12 @@ Update Brand
 
 * HTTP status 200 "ok" with the following json document that contains the Brand updated:
 
-``` json
-{
-  id: id,
-  name: name
-}
-```
+> ```
+  {
+    id: 1,
+    name: Apples
+  }
+  ```
 
 Delete Brand
 ------------
