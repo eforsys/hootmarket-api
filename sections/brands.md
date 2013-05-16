@@ -12,7 +12,7 @@ Get Brands
 
 * `sort={field}` specifies the order of brands.
 * `sort_type={ASC | DESC}` specifies if sort is ascending (ASC) or descending (DESC). The default value is ASC. This parameter only work if the sort parameter is specified. 
-* `per_page={number}` specifies the {number} of brands returned by page. The default number is 100, maximun 200 and minimun 1.
+* `per_page={number}` specifies the {number} of brands returned by page. The default number is 100, maximum 200 and minimum 1.
 * `page=#{number}` specifies the {number} of page to return.
 
 **Response**
