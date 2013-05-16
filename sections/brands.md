@@ -6,7 +6,7 @@ CRUD interface for Brands of Products.
 Get Brands
 ----------
 
-* `GET /brands.json` returns all Brands.
+`GET /brands.json` returns all Brands.
 
 **Optional Parameters**
 
@@ -38,7 +38,7 @@ Get Brands
 Get similar Brands
 ------------------
 
-* `GET /brands.json?q={term}` returns all similar Brands to {term}.
+`GET /brands.json?q={term}` returns all similar Brands to {term}.
 
 **Optional Parameters**
 
