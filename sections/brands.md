@@ -19,7 +19,7 @@ Get Brands
 
 * HTTP status 200 "ok" and the following json document in the body:
 
-> ```
+> ```json
   {
     brands: [
       {
