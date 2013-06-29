@@ -21,7 +21,7 @@ The States will be sorted by name
       id: 3531,
       name: "Florida",
       code: "FL",
-      country_id: "234"
+      country_id: 234
     },
     ...
   ]
@@ -46,14 +46,14 @@ The States are sorted by similitude.
       id: 3531,
       name: "Florida",
       code: "FL",
-      country_id: "234"
+      country_id: 234
     },
     ...
   ]
 }
 ```
 
-Get Country
+Get State
 -----------
 
 `GET /countries/{country_id}/states/{id}.json` returns a specific State withs Id {id} into the Country with Id {country_id}.
@@ -68,7 +68,7 @@ Get Country
     id: 3560,
     name: "Carlifornia",
     code: "CA",
-    phone_code: "1"
+    country_id: 234
   }
 }
 ```
