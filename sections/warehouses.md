@@ -1,7 +1,7 @@
 Warehouses
 ======
 
-CRUD interface for Warehouses of the Branches.
+Query interface for Warehouses of the Branches.
 
 Get Warehouses
 ----------
@@ -23,7 +23,7 @@ HTTP status 200 "ok" and the following json document in the body:
 {
   data: [
     {
-      name: NY 1020,
+      name: "NY 1020",
       created_by_id: 1,
       created_at: "2013-06-26T20:48:53Z",
       updated_by_id: 1,
@@ -77,7 +77,7 @@ HTTP status 200 "ok" and the following json document in the body:
 {
   data: [
     {
-      name: NY 1020,
+      name: "NY 1020",
       created_by_id: 1,
       created_at: "2013-06-26T20:48:53Z",
       updated_by_id: 1,
@@ -125,53 +125,7 @@ HTTP status 200 "ok" with the following json document:
 ```
 {
   data: {
-    name: NY 1020,
-    created_by_id: 1,
-    created_at: "2013-06-26T20:48:53Z",
-    updated_by_id: 1,
-    updated_at: "2013-06-26T20:48:53Z",
-    branch: {
-      id: 2,
-      name: "New York 1020",
-      address: "1020 Washington Street",
-      zip_code: "10551",
-      phone: "+1 210 636 3307",
-      city_name: "New York City",
-      country: {
-        id: 234,
-        name: "United Stated"
-      },
-      state: {
-        id: 3596,
-        name: "New York"
-      }
-    },
-    locations: [
-      {
-         name: "Box 1"
-      }
-    ]
-  }
-}
-```
-
-Create Warehouse
-------------
-
-`POST /warehouses.json` creates a new Warehouse.
-
-**Parameters**
-
-* `name` Warehouse name.
-
-**Response**
-
-HTTP status 201 "created" with the following json document that contains the Warehouse created:
-
-```
-{
-  data: {
-    name: NY 1020,
+    name: "NY 1020",
     created_by_id: 1,
     created_at: "2013-06-26T20:48:53Z",
     updated_by_id: 1,
@@ -204,7 +158,7 @@ HTTP status 201 "created" with the following json document that contains the War
 Update Warehouse
 ------------
 
-`PATCH /branches{id}.json` updates a Warehouse specifies with ID {id}.
+`PATCH /warehouses{id}.json` updates a specific Warehouse with ID {id}.
 
 **Parameters**
 
@@ -212,12 +166,12 @@ Update Warehouse
 
 **Response**
 
-HTTP status 200 "ok" with the following json document that contains the Branch updated:
+HTTP status 200 "ok" with the following json document that contains the Warehouse updated:
 
 ```
 {
   data: {
-    name: Warehouse New York 1020,
+    name: "Warehouse New York 1020",
     created_by_id: 1,
     created_at: "2013-06-26T20:48:53Z",
     updated_by_id: 1,
@@ -247,11 +201,4 @@ HTTP status 200 "ok" with the following json document that contains the Branch u
 }
 ```
 
-Delete Warehouse
-------------
 
-`DELETE /warehouses{id}.json` deletes a Warehouse specifies with ID {id}.
-
-**Response**
-
-HTTP status 200 "ok".
