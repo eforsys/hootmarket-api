@@ -1,7 +1,7 @@
 Warehouse Locations
 ======
 
-CRUD interface for Locations of the Warehouses.
+Query interface for Locations of the Warehouses.
 
 Get Locations
 ----------
@@ -23,7 +23,7 @@ HTTP status 200 "ok" and the following json document in the body:
 {
   data: [
     {
-      name: Box 1,
+      name: "Box 1",
       created_by_id: 1,
       warehouse_id: 1
       created_at: "2013-06-26T20:48:53Z",
@@ -57,7 +57,7 @@ HTTP status 200 "ok" and the following json document in the body:
 {
   data: [
     {
-      name: Box 1,
+      name: "Box 1",
       created_by_id: 1,
       warehouse_id: 1
       created_at: "2013-06-26T20:48:53Z",
@@ -84,7 +84,7 @@ HTTP status 200 "ok" with the following json document:
 ```
 {
   data: {
-    name: Box 1,
+    name: "Box 1",
     created_by_id: 1,
     warehouse_id: 1
     created_at: "2013-06-26T20:48:53Z",
