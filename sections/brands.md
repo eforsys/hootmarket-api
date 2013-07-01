@@ -125,7 +125,7 @@ HTTP status 201 "created" with the following json document that contains the Bra
 Update Brand
 ------------
 
-`PATCH /brands{id}.json` updates a Brand specifies with ID {id}.
+`PATCH /brands{id}.json` updates a specific Brand with ID {id}.
 
 **Parameters**
 
@@ -151,7 +151,7 @@ HTTP status 200 "ok" with the following json document that contains the Brand up
 Delete Brand
 ------------
 
-`DELETE /brands{id}.json` deletes a Brand specifies with ID {id}.
+`DELETE /brands{id}.json` deletes a specific Brand with ID {id}.
 
 **Response**
 
