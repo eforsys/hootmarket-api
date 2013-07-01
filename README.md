@@ -14,6 +14,8 @@ API Endpoints
 * [Warehouses](sections/warehouses.md)
 * [WarehouseLocations](sections/warehouse_locations.md)
 * [Brands](sections/brands.md)
+* [ProductGroups](sections/product_groups.md)
+* [ProductLabels](sections/product_labels.md)
 
 Errors
 ------
